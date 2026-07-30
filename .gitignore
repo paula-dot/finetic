@@ -1,8 +1,11 @@
 # Dependencies
 node_modules/
+dist/
+build/
 vendor/
 
 # Go-specific build and cache
+/backend/bin/
 *.exe
 *.exe~
 *.dll
@@ -34,8 +37,16 @@ backend/.env
 # Environment files
 .env.local
 .env.*.local
+.venv
+env/
+venv/
 *.pem
 *.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
 
 # OS specific
 Thumbs.db
