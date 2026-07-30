@@ -1,3 +1,28 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Go-specific build and cache
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.sum
+
+# IDE: GoLand
+.idea/
+*.iml
+*.iws
+*.ipr
+*.swp
+.DS_Store
+
+# IDE: VS Code
+.vscode/
+
 backend/.env
 .gitignore
 .env
@@ -5,3 +30,15 @@ backend/.env
 .idea/finetic.iml
 .idea/modules.xml
 .idea/inspectionProfiles/Project_Default.xml
+
+# Environment files
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# OS specific
+Thumbs.db
+
+finetic_file_structure.md
+
